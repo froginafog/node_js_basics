@@ -25,7 +25,6 @@ function main()
     //open a browser
     //type: http://localhost:1234
     
-    //to stop, go to the command prompt, type ctrl + c, then press enter
 }
 
 main();
