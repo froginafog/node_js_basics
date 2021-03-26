@@ -24,8 +24,6 @@ function main()
     //type: node file_name.js
     //open a browser
     //type: http://localhost:1234
-    
-    //to stop, go to the command prompt, type ctrl + c
 }
 
 main();
