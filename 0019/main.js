@@ -29,10 +29,10 @@ var http = require('http');  //http is now an object
 function server(request, response)
 {
 	response.writeHead(200, {'Content-Type': 'text/html'});  
-    //we specify 'html' so that it gets treated as an HTML file (instead of plain text file)
+    	//we specify 'html' so that it gets treated as an HTML file (instead of plain text file)
     
-    response.write(output);
-    response.end();
+    	response.write(output);
+    	response.end();
 }
 
 http.createServer(server).listen(1234);
