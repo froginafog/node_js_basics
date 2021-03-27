@@ -29,7 +29,7 @@ var http_obj = require('http');
 
 function server_function(request, response)
 {
-	response.writeHead(200, {'Content-Type': 'text/html'});  
+    response.writeHead(200, {'Content-Type': 'text/html'});  
     //we specify 'html' so that it gets treated as an HTML file (instead of plain text file)
     
     read_stream_obj.pipe(response);  
