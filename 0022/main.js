@@ -21,4 +21,4 @@ event_emitter.emit("message_event", "To Node or not to Node.", "To C or not to C
 To Node or not to Node.
 To C or not to C.
 To Javascript or not to Javascript.
-&/
+*/
